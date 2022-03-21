@@ -92,12 +92,29 @@ html{
     font-weight: bold;
 }
 
+.btnn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btnn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
 /* about */
 #about{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 49px;
     margin-bottom: 50px;
 }
 #pic{
@@ -105,7 +122,7 @@ html{
 
 }
 #pic img{
-    width: 575px;
+    width: 450px;
     height: 400px;
 }
 #intro{
@@ -122,7 +139,7 @@ html{
 }
 
 /* Services */
-#services{
+#projects{
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -167,7 +184,7 @@ html{
     flex-direction: column;
     box-sizing: border-box;
     background-color: rgb(46, 125, 243);
-    color: white;
+    color: rgb(4, 22, 82);
     padding: 20px;
 }
 
