@@ -1,84 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7
+.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Login Form - Pure Coding</title>
 </head>
 <body>
-    <nav class="navbar">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-        </ul>
-    </nav>
-    <section id="home">
-           <div class="main">
-               <!-- put ur name here -->
-               <h1 class="headings">I am <br>Your name here</h1>
-               <button class="btn">
-                   Hire me
-               </button>
-           </div>
-    </section>
-
-    <section id="about">
-        <div id="pic">
-            <h1 class="headings">ABOUT ME</h1>
-            <img src="NK.jpg" alt="">
-            <div class="intro">
-                <!-- put about yourself here -->
-                <h2>Naruto Uzumaki (sample)</h2>
-                <p>Naruto was serialized in Shueisha's magazine, Weekly Shōnen Jump from 1999 to 
-                    2014, and released in tankōbon (book) form in 72 volumes. The manga was adapted into an anime television series produced by Pierrot and Aniplex, which broadcast 220 episodes in Japan from 2002 to 2007; the English dub of the series aired on Cartoon Network and YTV from 2005 to 2009. Naruto: Shippuden, a sequel to the original series, premiered in Japan in 2007, 
-                    and ended in 2017, after 500 episodes. The English dub was 
-                    broadcast on Disney XD from 2009 to 2011, airing the first 98 episodes, 
-                    and then switched over to Adult Swim's Toonami programming block in January 2014, starting 
-                    over from the first episode. The English dub is still airing weekly on Adult Swim to this 
-                    day. Viz Media began streaming the anime series on their streaming service Neon Alley in 
-                    December 2012 on 99 episodes, and ended on March 2016, after 338 episodes. Besides the anime 
-                     Pierrot has developed eleven movies and twelve original video animations (OVAs). Other 
-                     Naruto-related merchandise includes light novels, video games, and trading cards developed 
-                     by several companies.</p>
-            </div>
+    <div class="container">
+        <p class="login-text">Login with social media</p>
+        <div class="login-social">
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i> Facebook</a>
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i> Twitter</a>
+            <a href="#" class="google-plus"><i class="fa fa-google-plus"></i> Google
+ Plus</a>
+            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i> Linkedin</a>
         </div>
-    </section>
-
-    <section id="services">
-        <h1 class="headings">SERVICES</h1>
-        <!-- customize your services here -->
-        <div class="row">
-            <div class="box">
-                <img src="web.png" alt="">
-                <h1 class="headings">Website <br> Design</h1>
-                <p>I can design websites for buisness purposes</p>
+        <form class="login-email">
+            <p class="login-text">Login with email</p>
+            <div class="input-group">
+                <input type="email" placeholder="Email" required>
             </div>
-            <div class="box">
-                <img src="web.png" alt="">
-                <h1 class="headings">UI/UX <br> Design</h1>
-                <p>I can design UI for buisness purposes</p>
+            <div class="input-group">
+                <input type="password" placeholder="Password" required>
             </div>
-            <div class="box">
-                <img src="web.png" alt="">
-                <h1 class="headings">App <br> Design</h1>
-                <p>I can design apps for buisness purposes</p>
+            <div class="input-group">
+                <button class="btn">Login</button>
             </div>
-
-        </div>
-    </section>
-
-    <section id="contact">
-        <h1 class="headings">CONTACT ME</h1>
-        <form action="" class="form">
-            <input type="text" name="name" id="input" placeholder="Enter Your name">
-            <input type="email" name="email" class="input" placeholder="Enter Your Email">
-            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
-            <input type="submit" value="SEND" id="send">
         </form>
-    </section>
+    </div>
 </body>
 </html>
